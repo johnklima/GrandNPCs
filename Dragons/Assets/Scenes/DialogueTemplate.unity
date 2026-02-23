@@ -292,8 +292,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: chat
@@ -346,7 +356,7 @@ PrefabInstance:
     - target: {fileID: 5390123899171645812, guid: 282ec68f3af90864fa3b30055b5047b6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 497.76
+      value: 497.56
       objectReference: {fileID: 0}
     - target: {fileID: 5390123899171645812, guid: 282ec68f3af90864fa3b30055b5047b6,
         type: 3}
@@ -356,7 +366,7 @@ PrefabInstance:
     - target: {fileID: 5390123899171645812, guid: 282ec68f3af90864fa3b30055b5047b6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 501.21
+      value: 503.799
       objectReference: {fileID: 0}
     - target: {fileID: 5390123899171645812, guid: 282ec68f3af90864fa3b30055b5047b6,
         type: 3}
@@ -554,8 +564,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: bless
@@ -618,8 +638,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: agro
@@ -647,7 +677,7 @@ PrefabInstance:
     - target: {fileID: 3620231149454236416, guid: 3148358f4f418d54b8a20008fb818794,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 494.71
+      value: 492.51
       objectReference: {fileID: 0}
     - target: {fileID: 3620231149454236416, guid: 3148358f4f418d54b8a20008fb818794,
         type: 3}
@@ -657,7 +687,7 @@ PrefabInstance:
     - target: {fileID: 3620231149454236416, guid: 3148358f4f418d54b8a20008fb818794,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 499.55
+      value: 493.59
       objectReference: {fileID: 0}
     - target: {fileID: 3620231149454236416, guid: 3148358f4f418d54b8a20008fb818794,
         type: 3}
@@ -782,8 +812,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: chat
@@ -924,8 +964,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: whisper
@@ -1028,8 +1078,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: agro
@@ -1192,8 +1252,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: bow
@@ -1244,19 +1314,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &1371255384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371255379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50e3190c81dd1bc4cb0ea6f24b53228c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCController
-  PersonOfIntent: {fileID: 0}
 --- !u!1 &1404690675 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 591046562239095981, guid: bd6afa1f4af0f7c4d98184e71df2b4c9,
@@ -1303,8 +1360,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: bow
@@ -1593,8 +1660,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: whisper
@@ -1939,6 +2016,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Suki
       objectReference: {fileID: 0}
+    - target: {fileID: 5249764361438707363, guid: 6e02cf3b81e41f44fbf7614e21c39325,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1987,8 +2069,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ff4bc8c7ef9e949bf9e0040b9f4a67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimParamDriver
-  T: 0
-  lerpValue: 1
+  T:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   endValue: 1
   startValue: 0
   parmName: flirt
@@ -2217,7 +2309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 480112, guid: 8e302007cba46d94b970c6a0955b9628, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.50000006
       objectReference: {fileID: 0}
     - target: {fileID: 480112, guid: 8e302007cba46d94b970c6a0955b9628, type: 3}
       propertyPath: m_LocalScale.y
@@ -2225,7 +2317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 480112, guid: 8e302007cba46d94b970c6a0955b9628, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.50000006
       objectReference: {fileID: 0}
     - target: {fileID: 480112, guid: 8e302007cba46d94b970c6a0955b9628, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2275,10 +2367,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1371255382}
-    - targetCorrespondingSourceObject: {fileID: 109776, guid: 8e302007cba46d94b970c6a0955b9628,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1371255384}
   m_SourcePrefab: {fileID: 100100000, guid: 8e302007cba46d94b970c6a0955b9628, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -8,15 +8,17 @@ public class NPCController : MonoBehaviour
 
     NavMeshAgent agent;
     DragonCouncilAbsoluteMatrix dialogueMatrix;
+    AnimParamDriver animDriver;
 
     public Transform PersonOfIntent;   //navmesh and/or dialogue target
-    private Transform previousPerson;
+    private Transform previousPerson = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         dialogueMatrix = GetComponentInParent<DragonCouncilAbsoluteMatrix>();
         agent = GetComponent<NavMeshAgent>();
+        animDriver = GetComponent<AnimParamDriver>();
 
         Transform characters = transform.parent;
 
@@ -29,13 +31,7 @@ public class NPCController : MonoBehaviour
             int c = Random.Range(0, count);
             PersonOfIntent = characters.GetChild(c);
         }
-        
-           
-        if (PersonOfIntent)
-        {
-            agent.SetDestination(PersonOfIntent.position);
-            StartCoroutine(MoveNPC());
-        }
+
         previousPerson = PersonOfIntent;
     }
     // Update is called once per frame
@@ -43,9 +39,13 @@ public class NPCController : MonoBehaviour
     {
         if (previousPerson != PersonOfIntent)
         {
-            agent.SetDestination(PersonOfIntent.position);
-            agent.isStopped = false;
-            StartCoroutine(MoveNPC());
+            //if(Vector3.Distance(PersonOfIntent.position,transform.position) > 2.0f)
+            {
+                agent.SetDestination(PersonOfIntent.position);
+                animDriver.Walk();
+                agent.isStopped = false;
+                StartCoroutine(MoveNPC());
+            }
             previousPerson = PersonOfIntent;
         }
         
@@ -59,8 +59,7 @@ public class NPCController : MonoBehaviour
         var dialogue =
             dialogueMatrix.Matrix[myname][theirname];
         
-        
-       
+               
         //pick a random
         int say = Random.Range(0, 3);
         string toSay = "nothing" ;
@@ -74,7 +73,7 @@ public class NPCController : MonoBehaviour
 
         Debug.Log(myname + " says to " + theirname + ": " + toSay );
 
-        
+        animDriver.Talk(say);
     }
     IEnumerator MoveNPC ()
     {

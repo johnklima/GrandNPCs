@@ -1,10 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.Burst.Intrinsics;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.XR;
+
 
 /// <summary>
 /// Small class to lerp a single animation parameter by name
@@ -118,7 +114,7 @@ public class AnimParamDriver : MonoBehaviour
     {
         while (time <= 1.1f)
         {
-            //slerp them
+            //lerp them
             float newVal = Mathf.Lerp(startValue, endValue, time);
 
             //elegant!
